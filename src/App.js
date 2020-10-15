@@ -14,7 +14,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1>Hello everyOne..!</h1>
-        <Userinput changed={this.usernameChangeHandler}/>
+        <Userinput changed={this.usernameChangeHandler} currentUserName={this.state.username}/>
         <UserOutput userName={this.state.username} />
         <UserOutput userName="Teja"/>
         <UserOutput userName="Teja"/>
